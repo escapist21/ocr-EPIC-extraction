@@ -10,11 +10,11 @@ This is most helpful for pdfs that are in native/state languages with only the E
 
 The two files in this repository helps to achieve this function
 
-The file named 'ocr_eroll_extraction.py' uses the tesserocr library with english as the language to extract all data from the 
+The file named 'ocr_extraction.py' uses the tesserocr library with english as the language to extract all data from the 
 pdfs. Though most of it is garbage, the EPIC no which is in English is mostly preserved. All the eroll pdfs in a folder can be 
 held in memory using the glob module and after running ocr written to a txt file using the 'with open' command in python.
 
-The second file named 'regex_epics_extraction.py' can then be run on the extracted txt file to create a list of all EPIC nos. 
+The second file named 'regex_epics_identifier.py' can then be run on the extracted txt file to create a list of all EPIC nos. 
 The python regular expression module has been used to achieve this. 
 There are two different patterns in which EPIC nos are mostly found.
 The most common pattern is made of 10 characters in the sequence 'ABC1234567' and the second pattern is made of 15 characters 
