@@ -19,3 +19,8 @@ The python regular expression module has been used to achieve this.
 There are two different patterns in which EPIC nos are mostly found.
 The most common pattern is made of 10 characters in the sequence 'ABC1234567' and the second pattern is made of 15 characters 
 in the sequence 'AB/01/23/456789'
+
+<h2>To Do:</h2>
+<li>
+    <ul>use multiprocessing while writing the converted files into text file</ul>
+</li>
